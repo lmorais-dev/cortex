@@ -7,6 +7,7 @@ version = "0.0.1"
 edition = "2024"
 rust-version = "1.85.0"
 authors = ["lmorais-dev <lucas.morais@lsconsult.tech>"]
+readme = "README.md"
 license = "MIT"
 publish = false
 repository = "https://github.com/lmorais-dev/cortex"
