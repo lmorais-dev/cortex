@@ -6,8 +6,10 @@ members = [ "cortex-server", "cortex-zk", "cortex-zk/cortex-zk-iseven"]
 version = "0.0.1"
 edition = "2024"
 rust-version = "1.85.0"
-authors = ["Zenith Collaborators"]
+authors = ["lmorais-dev <lucas.morais@lsconsult.tech>"]
+license = "MIT"
 publish = false
+repository = "https://github.com/lmorais-dev/cortex"
 
 [workspace.dependencies]
 cortex-zk = { path = "cortex-zk" }
