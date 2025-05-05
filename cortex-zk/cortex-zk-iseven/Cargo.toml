@@ -1,0 +1,13 @@
+[package]
+name = "cortex-zk-iseven"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[dependencies]
+alloy-primitives = { workspace = true }
+alloy-sol-types = { workspace = true }
+
+risc0-zkvm = { workspace = true }

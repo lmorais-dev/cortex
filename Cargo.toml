@@ -1,0 +1,28 @@
+[workspace]
+resolver = "3"
+members = [ "cortex-server", "cortex-zk", "cortex-zk/cortex-zk-iseven"]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.85.0"
+authors = ["Zenith Collaborators"]
+publish = false
+
+[workspace.dependencies]
+cortex-zk = { path = "cortex-zk" }
+
+alloy = { version = "0.15.8", features = ["full"] }
+alloy-primitives = { version = "1.1.0", features = ["rlp", "serde", "k256"] }
+alloy-sol-types = { version = "1.1.0" }
+
+risc0-zkvm = { version = "2.0.2" }
+risc0-build = { version = "2.1.1" }
+risc0-build-ethereum = { version = "2.0.2" }
+
+const-hex = { version = "1.14.0" }
+
+tokio = { version = "1.44.2", features = ["full"] }
+
+color-eyre = { version = "0.6.4" }
+thiserror = { version = "2.0.12" }

@@ -1,0 +1,16 @@
+[package]
+name = "cortex-zk"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[package.metadata.risc0]
+methods = ["cortex-zk-iseven"]
+
+[dependencies]
+
+[build-dependencies]
+risc0-build = { workspace = true }
+risc0-build-ethereum = { workspace = true }

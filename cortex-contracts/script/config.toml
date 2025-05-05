@@ -1,0 +1,7 @@
+[profile.mainnet]
+chainId = 43114
+riscZeroVerifierAddress = "0x0b144E07A0826182B6b59788c34b32Bfa86Fb711"
+
+[profile.testnet]
+chainId = 43113
+riscZeroVerifierAddress = "0x0b144E07A0826182B6b59788c34b32Bfa86Fb711"
